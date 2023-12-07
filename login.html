@@ -2,8 +2,8 @@
 session_start();
 
 // Simulating user data (in a real scenario, you would use a database)
-$validUsername = "romanhodayi_lemonrye";
-$validPasswordHash = password_hash("eblSp4Zlch_s4i?up2", PASSWORD_DEFAULT); // Hashed password for security
+$validUsername = "username";
+$validPasswordHash = password_hash("password", PASSWORD_DEFAULT); // Hashed password for security
 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
